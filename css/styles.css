@@ -1,0 +1,79 @@
+body {
+    /*Got this wonderful gradient from "https://cssgradient.io/" */
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+    height: 100dvh;
+    /*width: 100dvh;*/
+    overflow: hidden;
+}
+
+.container {
+    padding: 100px 440px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.owner {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 300;
+}
+
+.emoji {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.palindromeContainer {
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 3px 20px 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    box-shadow: 10px 8px 2px 1px;
+}
+
+.enttext {
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#text-input {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid cornflowerblue;
+    width: 220px;
+}
+
+button {
+    background-color: cornflowerblue;
+    color: azure;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    height: 30px;
+    width: 80px;
+    margin-left: 15px;
+}
+
+#result {
+    display: hidden;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.palindromeMeaning {
+    background-color: darkorchid;
+    border-radius: 20px;
+    padding: 3px 20px 30px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: 10px 8px 2px 1px;
+}
